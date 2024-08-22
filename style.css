@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cc5ad4b4;
+}
+
+.container {
+    border-radius: .3rem;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    background: white;
+    padding: 10px;
+}
+
+.head {
+    text-align: center;
+    /* font-size: 5px; */
+    margin: 10px;
+}
+
+.head input {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 400px;
+    border-radius: 0.3rem;
+    background: #9c9494dc; 
+} 
+
+.length {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.length input {
+    text-align: right;
+}
+
+.include {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.generateBtn button {
+    border: none;
+    outline: none;
+    background: #ee00ffb4;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    border-radius: 1rem;
+}
+ 
+
+.generateBtn button:hover {
+    cursor: pointer;
+    background: #72007a;
+}
+
+.generateBtn {
+    text-align: center;
+    margin: 20px 10px 0 0;
+}
+
+#copyIcon {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}

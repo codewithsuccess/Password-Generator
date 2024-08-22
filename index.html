@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Password Generator</h1>
+            <input type="text" placeholder="Get your Password here" id="showPass" disabled><span id="copyIcon"
+            class="material-symbols-outlined">
+            content_copy
+        </span>
+        </div>
+        <div class="length">
+            <label for="length">Enter Password length</label>
+            <input type="text" placeholder="Enter Password length" id="passLength">
+        </div>
+        <div>
+            <div class="box">
+                <div class="include">
+                    <label for="uppercase">Include uppercase Characters</label>
+                    <input type="checkbox" name="uppercase" id="uppercase" checked>
+                </div>
+                <div class="include">
+                    <label for="lowercase">Include Lowercase Characters</label>
+                    <input type="checkbox" name="lowercase" id="lowercase" checked>
+                </div>
+                <div class="include">
+                    <label for="numbers">Include Numbers</label>
+                    <input type="checkbox" name="numbers" id="numbers" checked>
+                </div>
+                <div class="include">
+                    <label for="symbol">Include special symbol</label>
+                    <input type="checkbox" name="symbol" id="symbol" checked>
+                </div>
+            </div>
+        </div>
+        <div class="generateBtn">
+            <button id="genBtn">Generate Password</button>
+        </div>
+    </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
